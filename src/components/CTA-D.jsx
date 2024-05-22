@@ -15,7 +15,7 @@ export default function CallToAction() {
           href="/contact"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-gradient-to-r from-JonesCo-Red-500 to-JonesCo-Blue-700 hover:from-JonesCo-Red-600 hover:to-JonesCo-Blue-800 text-white font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105 animate-pulse"
+          className="bg-gradient-to-r from-JonesCo-Red-500 to-JonesCo-Green-700 hover:from-JonesCo-Red-600 hover:to-JonesCo-Green-800 text-white font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105 animate-pulse"
         >
           Claim Your Free Estimate!
         </a>

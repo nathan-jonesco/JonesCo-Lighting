@@ -3,7 +3,7 @@ import Script from 'next/script';
 
 export default function ConvertCTA() {
   return (
-    <div className="bg-JonesCo-Blue-900 py-16 px-4 text-white">
+    <div className="bg-JonesCo-Green-900 py-16 px-4 text-white">
       <div className="container mx-auto text-center">
         <CheckCircleIcon className="h-12 w-12 text-JonesCo-Red-500 mx-auto mb-6 animate-bounce" />
         <h2 className="text-xl sm:text-4xl font-bold mb-4 animate-pulse">

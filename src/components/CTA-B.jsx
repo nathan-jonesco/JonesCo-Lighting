@@ -15,7 +15,7 @@ export default function CallToAction() {
           href="/contact"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-gradient-to-r from-JonesCo-Blue-500 to-JonesCo-Red-700 hover:from-JonesCo-Blue-600 hover:to-JonesCo-Red-800 text-white font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105 animate-pulse"
+          className="bg-gradient-to-r from-JonesCo-Green-500 to-JonesCo-Red-700 hover:from-JonesCo-Green-600 hover:to-JonesCo-Red-800 text-white font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105 animate-pulse"
         >
           Schedule Your Cleaning!
         </a>

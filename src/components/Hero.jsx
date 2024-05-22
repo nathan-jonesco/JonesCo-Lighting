@@ -32,7 +32,7 @@ export default function Hero() {
             href="/contact"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-JonesCo-Blue-700 hover:bg-JonesCo-Blue-600 text-white font-bold py-3 px-3 rounded-full transform transition-transform duration-300 hover:scale-110 hover:shadow-lg active:scale-95 focus:outline-none focus:ring focus:ring-JonesCo-Red-300 animate-pulse"
+            className="bg-JonesCo-Green-700 hover:bg-JonesCo-Green-600 text-white font-bold py-3 px-3 rounded-full transform transition-transform duration-300 hover:scale-110 hover:shadow-lg active:scale-95 focus:outline-none focus:ring focus:ring-JonesCo-Red-300 animate-pulse"
           >
             Book Free Estimate
           </a>

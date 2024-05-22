@@ -56,7 +56,7 @@ export default function ServicesSection() {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1 }} // Adjust duration as needed
       viewport={{ once: true }} 
-      className="bg-JonesCo-Blue-900 py-24 sm:py-32"
+      className="bg-JonesCo-Green-900 py-24 sm:py-32"
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">

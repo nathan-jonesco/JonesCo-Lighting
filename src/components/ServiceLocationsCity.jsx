@@ -20,7 +20,7 @@ export default function ServiceAreas() {
   };
 
   return (
-    <div className="bg-JonesCo-Blue-900 py-12 sm:py-16 text-white">
+    <div className="bg-JonesCo-Green-900 py-12 sm:py-16 text-white">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="text-center mb-8">
           <h2 className="text-base font-semibold leading-7 text-JonesCo-Red-400">Eastern Tennessee Focused,</h2>
@@ -33,7 +33,7 @@ export default function ServiceAreas() {
           {counties.map((county, index) => (
             <div
               key={county.name}
-              className="relative px-4 py-2 transition-opacity duration-300 bg-JonesCo-Blue-800 rounded-lg hover:bg-JonesCo-Blue-700 cursor-pointer"
+              className="relative px-4 py-2 transition-opacity duration-300 bg-JonesCo-Green-800 rounded-lg hover:bg-JonesCo-Green-700 cursor-pointer"
               onClick={() => toggleExpand(index)}
             >
               <dt className="text-gray-100 font-bold flex items-center justify-between">

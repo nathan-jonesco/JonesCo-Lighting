@@ -32,7 +32,7 @@ export default function Header() {
         </Link>
         <div className="hidden lg:flex lg:gap-x-12">
           {navigation.map((item) => (
-            <Link key={item.name} href={item.href} className="text-base font-bold tracking-wider uppercase text-JonesCo-Blue-900 hover:text-JonesCo-Blue-700">
+            <Link key={item.name} href={item.href} className="text-base font-bold tracking-wider uppercase text-JonesCo-Green-900 hover:text-JonesCo-Green-700">
               {item.name}
             </Link>
           ))}
@@ -40,7 +40,7 @@ export default function Header() {
         <div className="flex lg:hidden">
           <button
             type="button"
-            className="inline-flex items-center justify-center rounded-md p-2 text-JonesCo-Blue-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-JonesCo-Blue-500"
+            className="inline-flex items-center justify-center rounded-md p-2 text-JonesCo-Green-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-JonesCo-Green-500"
             onClick={() => setMobileMenuOpen(true)}
           >
             <span className="sr-only">Open main menu</span>
@@ -83,7 +83,7 @@ export default function Header() {
                   <a
                     key={item.name}
                     href={item.href}
-                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-JonesCo-Blue-900 hover:bg-JonesCo-Blue-50"
+                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-JonesCo-Green-900 hover:bg-JonesCo-Green-50"
                   >
                     {item.name}
                   </a>

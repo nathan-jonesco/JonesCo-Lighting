@@ -20,7 +20,7 @@ module.exports = {
       '9xl': ['8rem', { lineHeight: '1' }],
     },
     colors: {
-      'JonesCo-Blue': {
+      'JonesCo-Green': {
         50: '#ecfbff',
         100: '#d4f4ff',
         200: '#b2eeff',
@@ -58,19 +58,6 @@ module.exports = {
         800: '#00220e',
         900: '#00110f',
         950: '#00070f',
-      },
-      'JonesCo-Red': {
-        50: '#fff5f2',
-        100: '#ffe9dd',
-        200: '#ffd6b8',
-        300: '#ffc28c',
-        400: '#ffab5a',
-        500: '#FF5C00',
-        600: '#e65000',
-        700: '#cc4300',
-        800: '#b33700',
-        900: '#992a00',
-        950: '#7f1e00',
       },
       'JonesCo-Yellow': {
         50: '#fffbf0',

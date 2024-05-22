@@ -25,11 +25,11 @@ export default function ValueProps() {
   ];
 
   return (
-    <div className="sm:bg-gradient-to-b bg-gradient-to-r from-JonesCo-Blue-100 to-JonesCo-Red-200">
+    <div className="sm:bg-gradient-to-b bg-gradient-to-r from-JonesCo-Green-100 to-JonesCo-Red-200">
       <div className="container mx-auto py-12 px-4">
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-base font-semibold leading-7 text-JonesCo-Blue-600">Why Choose JonesCo Washing?</h2>
-          <p className="mt-2 mb-6 text-2xl font-black tracking-tight text-JonesCo-Blue-950 sm:text-4xl">Like New Clean. Every Time.</p>
+          <h2 className="text-base font-semibold leading-7 text-JonesCo-Green-600">Why Choose JonesCo Washing?</h2>
+          <p className="mt-2 mb-6 text-2xl font-black tracking-tight text-JonesCo-Green-950 sm:text-4xl">Like New Clean. Every Time.</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {valueProps.map((prop, index) => (

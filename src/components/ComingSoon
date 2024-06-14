@@ -1,0 +1,18 @@
+import React from 'react';
+
+const ComingSoon = () => {
+  return (
+    <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-JonesCo-Blue-500 to-JonesCo-Orange-500">
+      <div className="text-center p-6 rounded-lg shadow-lg bg-white max-w-md">
+        <h1 className="text-3xl font-bold text-JonesCo-Blue-800 mb-4">
+          JonesCo Lighting Installers
+        </h1>
+        <p className="text-xl text-JonesCo-Blue-600">
+          Coming in December 2024
+        </p>
+      </div>
+    </div>
+  );
+};
+
+export default ComingSoon;

@@ -10,7 +10,7 @@ import OurServices from '@/components/OurServices'
 import ServiceLocations from '@/components/ServiceLocationsCity'
 import WhyJonesCo from '@/components/Value'
 import John from '@/components/Why'
-import Subcontracting from '@/components/subcontracting'
+import ComingSoon from '@/components/ComingSoon'
 
 
 import Banner from '@/components/banner'
@@ -19,38 +19,28 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>JonesCo Seamless Gutter Systems || Home</title>
+        <title>JonesCo Lighting Installers 🎄</title>
         <meta name="theme-color" content="#C5F5CA" />
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Expert Installations for Lasting Home Protection."
+          content="Expert Installations for Lasting Home Lighting."
         />
 
       </Head>
       <Banner />
 
-      <Header />
 
 
       <main className="-z-50">
-        <Hero />
-        <WhyJonesCo />
-        <CTAA />
-        <OurServices />
+      
 
-        <CTAB />
-        <ServiceLocations />
-        <CTAC />
-        <Subcontracting />
-        <CTAA />
-
-        <John />
+        <ComingSoon />
 
 
 
       </main>
-      <Footer />
+
     </>
   )
 }

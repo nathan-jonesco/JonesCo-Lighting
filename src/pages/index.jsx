@@ -10,7 +10,10 @@ import OurServices from '@/components/OurServices'
 import ServiceLocations from '@/components/ServiceLocationsCity'
 import WhyJonesCo from '@/components/Value'
 import John from '@/components/Why'
-import ComingSoon from '@/components/ComingSoon'
+import Subcontracting from '@/components/subcontracting'
+
+import  Bot  from '@/components/zapier'
+
 
 
 import Banner from '@/components/banner'
@@ -19,28 +22,39 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>JonesCo Lighting Installers 🎄</title>
+        <title>JonesCo Lighting Installers || Home</title>
         <meta name="theme-color" content="#C5F5CA" />
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Expert Installations for Lasting Home Lighting."
+          content="Expert Installations for Lasting Home Protection."
         />
 
       </Head>
-      <Banner />
-
-
+      <Header />
 
       <main className="-z-50">
-      
 
-        <ComingSoon />
+        <Bot />
+        
+        <Hero />
+        <WhyJonesCo />
+        <CTAA />
+        <OurServices />
+
+        <CTAB />
+        <ServiceLocations />
+        <CTAC />
+        <Subcontracting />
+        <CTAA />
+
+        <John />
+        <CTAD />
 
 
 
       </main>
-
+      <Footer />
     </>
   )
 }

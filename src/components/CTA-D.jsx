@@ -1,24 +1,46 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
-export default function CallToAction() {
+export default function CallToActionCrazy() {
   return (
-    <div className="bg-white py-12 px-4">
-      <div className="max-w-5xl mx-auto text-center">
-        <h2 className="text-3xl font-bold mb-4 text-gray-900">
-          Brighten Up Your Home!
-        </h2>
-        <p className="text-lg text-gray-600 mb-8">
-          Enjoy our top-notch pressure and window washing services.
-        </p>
+    <div className="bg-JonesCo-Red-500 py-16 px-4 text-center"> 
+      <div className="max-w-5xl mx-auto">
+        <motion.h2 
+          className="text-4xl md:text-5xl font-extrabold mb-6 text-white drop-shadow-lg"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+        >
+          Lighting Leaking? 
+          <motion.span 
+            className="text-JonesCo-Yellow-300 animate-bounce" 
+            initial={{ scale: 1 }}
+            animate={{ scale: 1.1 }}
+            transition={{ repeat: Infinity, repeatType: "reverse", duration: 0.8 }}
+          > 
+            
+          </motion.span>
+        </motion.h2>
+        <motion.p 
+          className="text-xl md:text-2xl text-white/80 mb-10"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.5, duration: 1 }}
+        >
+          Stop the drip, ditch the worry. Call JonesCo for a free, no-obligation quote and let us handle it the right way!
+        </motion.p>
 
-        <a
+        {/* Bold Red Button with Pulse Animation */}
+        <motion.a
           href="/contact"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-gradient-to-r from-JonesCo-Red-500 to-JonesCo-Green-700 hover:from-JonesCo-Red-600 hover:to-JonesCo-Green-800 text-white font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105 animate-pulse"
+          className="bg-white hover:bg-gray-200 text-JonesCo-Red-500 font-black py-4 px-10 rounded-full shadow-xl transition duration-300 ease-in-out transform hover:scale-110 animate-pulse"
+          whileHover={{ scale: 1.1 }}
+          transition={{ duration: 0.3 }}
         >
-          Claim Your Free Estimate!
-        </a>
+          Stop the Drip NOW!
+        </motion.a>
       </div>
     </div>
   );

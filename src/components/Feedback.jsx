@@ -68,8 +68,8 @@ const FeedbackThanks = forwardRef(function FeedbackThanks(
         'absolute inset-0 flex justify-center md:justify-start',
       )}
     >
-      <div className="flex items-center gap-3 rounded-full bg-orange-50/50 py-1 pl-1.5 pr-3 text-sm text-orange-900 ring-1 ring-inset ring-orange-500/20 dark:bg-orange-500/5 dark:text-orange-200 dark:ring-orange-500/30">
-        <CheckIcon className="h-5 w-5 flex-none fill-orange-500 stroke-white dark:fill-orange-200/20 dark:stroke-orange-200" />
+      <div className="flex items-center gap-3 rounded-full bg-yellow-50/50 py-1 pl-1.5 pr-3 text-sm text-yellow-500 ring-1 ring-inset ring-yellow-500/20 dark:bg-yellow-500/5 dark:text-yellow-200 dark:ring-yellow-500/30">
+        <CheckIcon className="h-5 w-5 flex-none fill-yellow-500 stroke-white dark:fill-yellow-200/20 dark:stroke-yellow-200" />
         Thanks for your feedback!
       </div>
     </div>

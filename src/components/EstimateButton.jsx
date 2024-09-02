@@ -240,7 +240,7 @@ export default function StickyButtonWithModal() {
               <div className="mt-6 text-center">
                 <button
                   type="submit"
-                  className="inline-flex w-full items-center justify-center rounded-md border border-transparent bg-orange-950 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-blue-700"
+                  className="inline-flex w-full items-center justify-center rounded-md border border-transparent bg-yellow-500 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-blue-700"
                 >
                   Submit Request
                 </button>
@@ -266,7 +266,7 @@ export default function StickyButtonWithModal() {
               Your request has been submitted. We will reach out to you as soon as possible.
             </p>
             <button
-              className="mx-auto mt-4 block rounded-md bg-orange-950 px-4 py-2 text-white hover:bg-blue-700"
+              className="mx-auto mt-4 block rounded-md bg-yellow-500 px-4 py-2 text-white hover:bg-blue-700"
               onClick={() => setShowThankYouModal(false)}
             >
               Close

@@ -104,7 +104,7 @@ function ActivePageMarker({ group, pathname }) {
   return (
     <motion.div
       layout
-      className="absolute left-2 h-6 w-px bg-orange-500"
+      className="absolute left-2 h-6 w-px bg-yellow-500"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { delay: 0.2 } }}
       exit={{ opacity: 0 }}
@@ -195,13 +195,11 @@ export const navigation = [
   {
     title: 'Services',
     links: [
-      { title: 'Window Washing', href: '/services/window-washing' },
-      { title: 'Pressure Washing', href: '/services/pressure-washing' },
-      { title: 'Soft Washing', href: '/services/soft-washing' },
-      { title: 'Driveway Cleaning', href: '/services/driveway-cleaning' },
-      { title: 'Gutter Cleaning', href: '/services/gutter-cleaning' },
-      { title: 'House Washing', href: '/services/house-washing' },
-      { title: 'Deck Cleaning', href: '/services/deck-cleaning' },
+      { title: 'Holiday Lighting', href: '/services/holiday-lighting' },
+      { title: 'Security Lighting', href: '/services/security-lighting' },
+      { title: 'Architectural Lighting', href: '/services/architectural-lighting' },
+      { title: 'Patio & Deck Lighting', href: '/services/patio-deck-lighting' },
+      { title: 'Landscape Lighting', href: '/services/landscape-lighting' },
     ],
   },
   {

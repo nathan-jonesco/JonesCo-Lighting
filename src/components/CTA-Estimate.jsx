@@ -3,7 +3,7 @@
 import React, { useState, useRef } from 'react';
 import dynamic from 'next/dynamic';
 import Image from 'next/image';
-import backgroundImage from '@/images/Team/Maggie_Cleaning.webp'; // Update with the actual path to your image
+import backgroundImage from '@/images/Team/lighting.webp'; // Update with the actual path to your image
 
 const LoadScript = dynamic(
   () => import('@react-google-maps/api').then((mod) => mod.LoadScript),
@@ -143,10 +143,10 @@ export default function Example() {
               />
             </div>
             <h2 className="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl">
-              We're the Exterior Cleaning Experts.
+              We're the Exterior Lighting Experts.
             </h2>
             <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-white">
-              Transform your property with JonesCo's expert cleaning services. Get in touch now for a free, no-obligation estimate and see the difference we can make.
+              Transform your property with JonesCo's expert Lighting services. Get in touch now for a free, no-obligation estimate and see the difference we can make.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <button
@@ -270,7 +270,7 @@ export default function Example() {
               <div className="mt-6 text-center">
                 <button
                   type="submit"
-                  className="inline-flex w-full items-center justify-center rounded-md border border-transparent bg-orange-900 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-blue-700"
+                  className="inline-flex w-full items-center justify-center rounded-md border border-transparent bg-yellow-500 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-blue-700"
                 >
                   Submit Request
                 </button>
@@ -296,7 +296,7 @@ export default function Example() {
               Your request has been submitted. We will reach out to you as soon as possible.
             </p>
             <button
-              className="mx-auto mt-4 block rounded-md bg-orange-900 px-4 py-2 text-white hover:bg-blue-700"
+              className="mx-auto mt-4 block rounded-md bg-yellow-500 px-4 py-2 text-white hover:bg-blue-700"
               onClick={() => setShowThankYouModal(false)}
             >
               Close

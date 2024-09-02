@@ -91,7 +91,7 @@ function MobileNavigationDialog({ isOpen, close }) {
         <TransitionChild>
           <motion.div
             layoutScroll
-            className="fixed bottom-0 left-0 top-14 w-full overflow-y-auto bg-white px-4 pb-4 pt-6 shadow-lg shadow-neutral-900/10 ring-1 ring-neutral-900/7.5 duration-500 ease-in-out data-[closed]:-translate-x-full min-[416px]:max-w-sm sm:px-6 sm:pb-10 dark:bg-orange-50 dark:ring-neutral-800"
+            className="fixed bottom-0 left-0 top-14 w-full overflow-y-auto bg-white px-4 pb-4 pt-6 shadow-lg shadow-neutral-900/10 ring-1 ring-neutral-900/7.5 duration-500 ease-in-out data-[closed]:-translate-x-full min-[416px]:max-w-sm sm:px-6 sm:pb-10 dark:bg-yellow-50 dark:ring-neutral-800"
           >
             <Navigation />
           </motion.div>
@@ -125,7 +125,7 @@ export function MobileNavigation() {
         aria-label="Toggle navigation"
         onClick={toggle}
       >
-        <ToggleIcon className="w-2.5 stroke-neutral-900 dark:stroke-orange-600" />
+        <ToggleIcon className="w-2.5 stroke-neutral-900 dark:stroke-yellow-600" />
       </button>
       {!isInsideMobileNavigation && (
         <Suspense fallback={null}>

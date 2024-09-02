@@ -4,7 +4,7 @@ import React, { useEffect, useRef, useState, useCallback } from 'react'
 import { useRouter } from 'next/navigation'
 import dynamic from 'next/dynamic'
 import Image from 'next/legacy/image'
-import MaggieCleaning from '@/images/Team/Maggie_Cleaning.webp'
+import MaggieCleaning from '@/images/Team/lighting.webp'
 
 const LoadScript = dynamic(
   () => import('@react-google-maps/api').then((mod) => mod.LoadScript),
@@ -148,7 +148,7 @@ const Hero = () => {
                 ].map((text, index) => (
                   <div key={index} className="mb-4 flex items-center">
                     <svg
-                      className="mr-4 h-6 w-6 text-orange-600"
+                      className="mr-4 h-6 w-6 text-yellow-600"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -302,7 +302,7 @@ const Hero = () => {
               <div className="mt-6 text-center">
                 <button
                   type="submit"
-                  className="inline-flex w-full items-center justify-center rounded-md border border-transparent bg-orange-900 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-blue-700"
+                  className="inline-flex w-full items-center justify-center rounded-md border border-transparent bg-yellow-500 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-blue-700"
                 >
                   Submit Request
                 </button>

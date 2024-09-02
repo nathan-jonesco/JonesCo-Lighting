@@ -130,7 +130,7 @@ function LoadingIcon(props) {
 function HighlightQuery({ text, query }) {
   return (
     <Highlighter
-      highlightClassName="underline bg-transparent text-orange-500"
+      highlightClassName="underline bg-transparent text-yellow-500"
       searchWords={[query]}
       autoEscape={true}
       textToHighlight={text}
@@ -169,7 +169,7 @@ function SearchResult({
       <div
         id={`${id}-title`}
         aria-hidden="true"
-        className="text-sm font-medium text-neutral-950 group-aria-selected:text-orange-500 dark:text-white"
+        className="text-sm font-medium text-neutral-950 group-aria-selected:text-yellow-500 dark:text-white"
       >
         <HighlightQuery text={result.title} query={query} />
       </div>
@@ -268,7 +268,7 @@ const SearchInput = forwardRef(function SearchInput(
       />
       {autocompleteState.status === 'stalled' && (
         <div className="absolute inset-y-0 right-3 flex items-center">
-          <LoadingIcon className="h-5 w-5 animate-spin stroke-neutral-200 text-neutral-950 dark:stroke-neutral-800 dark:text-orange-400" />
+          <LoadingIcon className="h-5 w-5 animate-spin stroke-neutral-200 text-neutral-950 dark:stroke-neutral-800 dark:text-yellow-400" />
         </div>
       )}
     </div>
@@ -428,11 +428,11 @@ export function MobileSearch() {
     <div className="contents lg:hidden">
       <button
         type="button"
-        className="flex h-6 w-6 items-center justify-center rounded-md transition hover:bg-neutral-950/5 ui-not-focus-visible:outline-none lg:hidden dark:hover:bg-orange-600/5"
+        className="flex h-6 w-6 items-center justify-center rounded-md transition hover:bg-neutral-950/5 ui-not-focus-visible:outline-none lg:hidden dark:hover:bg-yellow-600/5"
         aria-label="Search Anything JonesCo..."
         {...buttonProps}
       >
-        <SearchIcon className="h-5 w-5 stroke-neutral-950 dark:stroke-orange-600" />
+        <SearchIcon className="h-5 w-5 stroke-neutral-950 dark:stroke-yellow-600" />
       </button>
       <Suspense fallback={null}>
         <SearchDialog className="lg:hidden" {...dialogProps} />

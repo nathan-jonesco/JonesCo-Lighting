@@ -1,17 +1,34 @@
-# Allow all web crawlers to index your site
-User-agent: *
-Disallow: /admin/
-Disallow: /login/
-Disallow: /private/
-Disallow: /terms-conditions/
-Disallow: /privacy-policy/
-Disallow: /hidden/
-
-# Allow specific web crawlers (optional)
 User-agent: Googlebot
-Disallow: /termsandconditions/
-Disallow: /privacy/
+Disallow:
 
 User-agent: Bingbot
-Disallow: /termsandconditions/
-Disallow: /privacy/
+Disallow:
+
+User-agent: Slurp
+Disallow:
+
+User-agent: DuckDuckBot
+Disallow:
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: YandexBot
+Disallow: /
+
+User-agent: Sogou
+Disallow: /
+
+User-agent: Exabot
+Disallow: /
+
+User-agent: facebot
+Disallow: /
+
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: *
+Disallow: /
+
+Sitemap: https://jonescowashing.com/sitemap.xml

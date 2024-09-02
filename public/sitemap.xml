@@ -1,142 +1,139 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
-    <loc>https://jonescolighting.com/</loc>
-    <lastmod>2024-06-12</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://jonescowashing.com/</loc>
     <priority>1.0</priority>
   </url>
+
   <url>
-    <loc>https://jonescolighting.com/about</loc>
-    <lastmod>2024-06-12</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://jonescowashing.com/about</loc>
     <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://jonescolighting.com/contact</loc>
-    <lastmod>2024-06-12</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://jonescowashing.com/contact</loc>
     <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://jonescolighting.com/downspouts</loc>
-    <lastmod>2024-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://jonescowashing.com/careers</loc>
+    <priority>0.7</priority>
   </url>
+
   <url>
-    <loc>https://jonescolighting.com/gutter-cleaning</loc>
-    <lastmod>2024-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://jonescowashing.com/counties</loc>
+    <priority>0.7</priority>
   </url>
+  
   <url>
-    <loc>https://jonescolighting.com/gutter-guards</loc>
-    <lastmod>2024-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://jonescolighting.com/gutter-replacement</loc>
-    <lastmod>2024-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://jonescolighting.com/seamless-gutter-installation</loc>
-    <lastmod>2024-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://jonescolighting.com/services</loc>
-    <lastmod>2024-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://jonescolighting.com/subcontracting</loc>
-    <lastmod>2024-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://jonescolighting.com/service-locations</loc>
-    <lastmod>2024-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://jonescolighting.com/why</loc>
-    <lastmod>2024-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://jonescolighting.com/privacy</loc>
-    <lastmod>2024-06-12</lastmod>
-    <changefreq>yearly</changefreq>
+    <loc>https://jonescowashing.com/counties/blount</loc>
     <priority>0.6</priority>
   </url>
+
   <url>
-    <loc>https://jonescolighting.com/termsandconditions</loc>
-    <lastmod>2024-06-12</lastmod>
-    <changefreq>yearly</changefreq>
+    <loc>https://jonescowashing.com/counties/cocke</loc>
     <priority>0.6</priority>
   </url>
+
   <url>
-    <loc>https://jonescolighting.com/submitted</loc>
-    <lastmod>2024-06-12</lastmod>
-    <changefreq>yearly</changefreq>
+    <loc>https://jonescowashing.com/counties/greene</loc>
     <priority>0.6</priority>
   </url>
-  <!-- County-specific pages -->
+
   <url>
-    <loc>https://jonescolighting.com/blount</loc>
-    <lastmod>2024-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://jonescowashing.com/counties/hamblen</loc>
+    <priority>0.6</priority>
   </url>
+
   <url>
-    <loc>https://jonescolighting.com/cocke</loc>
-    <lastmod>2024-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://jonescowashing.com/counties/jefferson</loc>
+    <priority>0.6</priority>
   </url>
+
   <url>
-    <loc>https://jonescolighting.com/greene</loc>
-    <lastmod>2024-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://jonescowashing.com/counties/knox</loc>
+    <priority>0.6</priority>
   </url>
+
   <url>
-    <loc>https://jonescolighting.com/hamblen</loc>
-    <lastmod>2024-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://jonescowashing.com/counties/sevier</loc>
+    <priority>0.6</priority>
   </url>
+
   <url>
-    <loc>https://jonescolighting.com/jefferson</loc>
-    <lastmod>2024-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://jonescowashing.com/counties/washington</loc>
+    <priority>0.6</priority>
   </url>
+
   <url>
-    <loc>https://jonescolighting.com/knox</loc>
-    <lastmod>2024-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://jonescowashing.com/estimate</loc>
+    <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://jonescolighting.com/sevier</loc>
-    <lastmod>2024-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://jonescowashing.com/gallery</loc>
+    <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://jonescolighting.com/washington</loc>
-    <lastmod>2024-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://jonescowashing.com/privacy</loc>
+    <priority>0.5</priority>
   </url>
+
+  <url>
+    <loc>https://jonescowashing.com/services</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://jonescowashing.com/services/deck-cleaning</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://jonescowashing.com/services/driveway-cleaning</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://jonescowashing.com/services/gutter-cleaning</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://jonescowashing.com/services/house-washing</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://jonescowashing.com/services/pressure-washing</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://jonescowashing.com/services/soft-washing</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://jonescowashing.com/services/window-washing</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://jonescowashing.com/termsandconditions</loc>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://jonescowashing.com/testimonials</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://jonescowashing.com/warranty</loc>
+    <priority>0.5</priority>
+  </url>
+
 </urlset>

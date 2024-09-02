@@ -25,7 +25,7 @@ const incentives = [
 
 export default function IncentivesSection() {
   return (
-    <div className="bg-blue-50 dark:bg-yellow-500">
+    <div className="bg-blue-50 dark:bg-yellow-600">
       <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 sm:py-32 lg:px-8">
         <div className="mx-auto max-w-2xl px-4 lg:max-w-none">
           <div className="grid grid-cols-1 items-center gap-x-16 gap-y-10 lg:grid-cols-2">

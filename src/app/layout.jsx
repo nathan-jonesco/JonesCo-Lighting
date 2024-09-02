@@ -7,8 +7,8 @@ import '@/styles/tailwind.css'
 
 export const metadata = {
   title: {
-    template: '%s ✨',
-    default: 'JonesCo Window & Pressure Washing',
+    template: '%s 💡',
+    default: 'JonesCo Exterior Lighting Installers',
   },
 }
 

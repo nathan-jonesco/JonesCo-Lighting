@@ -70,7 +70,7 @@ export const Header = forwardRef(function Header({ className, ...props }, ref) {
         <nav className="hidden md:block">
           <ul role="list" className="flex items-center gap-8">
             <TopLevelNavItem href="tel:423.207.2734">423.207.2734⁩</TopLevelNavItem>
-            <TopLevelNavItem href="mailto:hey@jonescowashing.com">hey@jonescowashing.com</TopLevelNavItem>
+            <TopLevelNavItem href="mailto:hey@jonescolighting.com">hey@jonescolighting.com</TopLevelNavItem>
           </ul>
         </nav>
         <div className="hidden md:block md:h-5 md:w-px md:bg-neutral-900/10 md:dark:bg-neutral-600/15" />

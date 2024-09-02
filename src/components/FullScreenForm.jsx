@@ -175,10 +175,10 @@ const Hero = () => {
                       423.207.2734
                     </a>
                     <a
-                      href="mailto:hey@jonescowashing.com"
+                      href="mailto:hey@jonescolighting.com"
                       className="w-1/2 animate-pulse rounded-md border border-transparent bg-blue-600 py-3 text-center text-base font-medium text-white shadow-sm hover:bg-blue-700"
                     >
-                      hey@jonescowashing.com
+                      hey@jonescolighting.com
                     </a>
                   </div>
                 </div>
@@ -194,7 +194,7 @@ const Hero = () => {
                     type="button"
                     className="inline-flex w-full animate-pulse items-center justify-center rounded-md border border-transparent bg-blue-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-blue-700"
                     onClick={() =>
-                      (window.location.href = 'mailto:hey@jonescowashing.com')
+                      (window.location.href = 'mailto:hey@jonescolighting.com')
                     }
                   >
                     Email Us
@@ -323,7 +323,7 @@ const Hero = () => {
                     type="button"
                     className="inline-flex w-full animate-pulse items-center justify-center rounded-md border border-transparent bg-blue-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-blue-700"
                     onClick={() =>
-                      (window.location.href = 'mailto:hey@jonescowashing.com')
+                      (window.location.href = 'mailto:hey@jonescolighting.com')
                     }
                   >
                     Email Us

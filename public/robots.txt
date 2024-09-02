@@ -31,4 +31,4 @@ Disallow: /
 User-agent: *
 Disallow: /
 
-Sitemap: https://jonescowashing.com/sitemap.xml
+Sitemap: https://jonescolighting.com/sitemap.xml

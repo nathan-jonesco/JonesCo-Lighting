@@ -243,7 +243,7 @@ export function Navigation(props) {
     <nav {...props}>
       <ul role="list">
         <TopLevelNavItem href="tel:423.207.2734">Call Now 📲</TopLevelNavItem>
-        <TopLevelNavItem href="mailto:hey@jonescowashing.com">Email Now 📫</TopLevelNavItem>
+        <TopLevelNavItem href="mailto:hey@jonescolighting.com">Email Now 📫</TopLevelNavItem>
         {navigation.map((group, groupIndex) => (
           <NavigationGroup
             key={group.title}
